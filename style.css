@@ -61,10 +61,12 @@ body {
 	background-color: var(--StrongCyan);
 	margin-top: 30px;
 	margin-right: 10px;
+	box-shadow: 0 8px 6px -6px var(--StrongCyan);
 }
 
 .header .content .btnmac {
 	background-color: var(--LightBlue);
+	box-shadow: 0 8px 6px -6px var(--LightBlue);
 }
 
 .mainContent {
@@ -256,11 +258,13 @@ body {
 	border-radius: 40px;
 	font-weight: 400;
 	background-color: var(--StrongCyan);
+	box-shadow: 0 8px 6px -6px var(--StrongCyan);
 	margin-top: 30px;
 }
 
 .lastSection .content .btnmac {
 	background-color: var(--LightBlue);
+	box-shadow: 0 8px 6px -6px var(--LightBlue);
 }
 
 .footer {
