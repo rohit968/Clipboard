@@ -1,0 +1,312 @@
+:root {
+	--StrongCyan: hsl(171, 66%, 44%);
+	--LightBlue: hsl(233, 100%, 69%);
+	--DarkGrayishBlue: hsl(210, 10%, 33%);
+	--GrayishBlue: hsl(201, 11%, 66%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 1440px;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.header {
+	background: url('images/bg-header-desktop.png') no-repeat;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+.content {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding-top: 20vh;
+	min-height: 50vh;
+	text-align: center;
+	width: 50%;
+}
+
+.header .content img {
+	height: 120px;
+	width: 130px;
+}
+
+.header .content h1 {
+	margin-top: 40px;
+	font-weight: 600;
+	color: var(--DarkGrayishBlue);
+}
+
+.header .content p {
+	color: var(--GrayishBlue);
+	font-weight: 400;
+	font-size: 20px
+}
+
+.header .content button {
+	padding: 10px 30px 10px 30px;
+	border: none;
+	border-radius: 40px;
+	font-weight: 400;
+	background-color: var(--StrongCyan);
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+.header .content .btnmac {
+	background-color: var(--LightBlue);
+}
+
+.mainContent {
+	min-height: 140vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.mainHeading {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.mainHeading h2 {
+	font-weight: 600;
+	font-size: 40px;
+	color: var(--DarkGrayishBlue);
+}
+
+.imageSection {
+	margin-top: 20vh;
+	display: flex;
+	min-height: 100vh;
+}
+
+.imageSectionLeft {
+	width: 50%;
+}
+
+.imageSectionLeft img {
+	width: 100%;
+	height: 80%;
+}
+
+.imageSectionRight {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sectionContent {
+	min-height: 10vh;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.text {
+	display: flex;	
+	flex-direction: column;
+}
+
+.text h2 {
+	margin-top: 30px;
+	font-size: 20px;
+	color: var(--DarkGrayishBlue);
+	font-weight: 600;
+}
+
+.text p {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.secondImageSection {
+	min-height: 60vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.content {
+	margin-top: -20vh;
+	min-height: 20vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.content h2 {
+	font-size: 35px;
+	color: var(--DarkGrayishBlue);
+	font-weight: 600;
+}
+
+.content p {
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.secondImage {
+	margin-top: 10vh;
+}
+
+.infoSection {
+	min-height: 60vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.infoSection h2 {
+	font-size: 35px;
+	color: var(--DarkGrayishBlue);
+	font-weight: 600;
+}
+
+.infoSection p {
+	font-size: 20px;
+	font-weight: 400;
+	color: var(--GrayishBlue);
+}
+
+.infoHeading {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.infoContent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content1, .content2, .content3 {
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.infoContent h2 {
+	margin-top: 40px;
+	font-size: 20px;
+}
+
+.infoContent p {
+	margin-top: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.companiesInfo {
+	min-height: 40vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.companiesLogo {
+	width: 80%;
+	min-height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.lastSection {
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.lastSection .content h1 {
+	margin-top: 20px;
+	font-weight: 600;
+	color: var(--DarkGrayishBlue);
+}
+
+.lastSection .content p {
+	color: var(--GrayishBlue);
+	font-weight: 400;
+	font-size: 15px
+}
+
+.lastSection .content button {
+	padding: 10px 30px 10px 30px;
+	border: none;
+	border-radius: 40px;
+	font-weight: 400;
+	background-color: var(--StrongCyan);
+	margin-top: 30px;
+}
+
+.lastSection .content .btnmac {
+	background-color: var(--LightBlue);
+}
+
+.footer {
+	margin-top: 10vh;
+	width: 100%;
+	min-height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(201, 11%, 90%);
+}
+
+.logo {
+	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer .logo img {
+	height: 60px;
+	width: 70px;
+}
+
+.footerContent {
+	width: 55%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.footer a {
+	color: var(--DarkGrayishBlue);
+}
+
+.content1, .content2, .content3 {
+	width: 35%;
+}
+
+.content1, .content2, .content3 a {
+	line-height: 30px;
+}
+
+.contactSocial {
+	width: 20%;
+	display: flex;
+	justify-content: space-around;
+}
+
